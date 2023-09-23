@@ -1,0 +1,90 @@
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    body{width: 100%;
+    height: 100%;}
+    #logotop {
+        display: none; /* Adjust logo size for smaller screens */
+    }
+    span{display: none;padding: 3px;}
+
+    .nav_head_left {
+        width: 0%; /* Further adjust spacing for smaller screens */
+    }
+    .nav_head_right1{width: 100%;
+    padding-left: 0%;padding-right: 20px;}
+
+    .nav_head_right2 {width: 90%;
+        display: flex; 
+        justify-content: end;
+        font-size: large;/* Hide right-side navigation links for mobile devices */
+    }
+    
+
+    .main {
+        font-size: 30px; /* Reduce font size for smaller screens */
+    }
+
+    .conatiner {
+        padding: 5px; /* Further reduce padding for smaller screens */
+        height: 568px;
+    }
+
+    .conatiner img {
+        max-height: 400px;
+        max-width: 300px; /* Further adjust image size for smaller screens */
+    }
+
+    #generatebutton {
+        font-size: 14px; /* Further reduce button font size for smaller screens */
+    }
+
+   
+}
+a:hover {
+    color: orange;
+}
+
+/* Media Query for Mobile Devices (e.g., iPhone) */
+@media screen and (max-width: 480px) {
+    body{width: 100%;
+        height: 100%;}
+    #logotop {
+        display: none; /* Adjust logo size for smaller screens */
+    }
+    span{display: none;}
+
+    .nav_head_left {
+        width: 0%; /* Further adjust spacing for smaller screens */
+    }
+    .nav_head_right1{width: 100%;
+    padding-left: 0%;padding-right: 20px;}
+
+    .nav_head_right2 {width: 90%;
+        display: flex; 
+        justify-content: end;
+        font-size: small;/* Hide right-side navigation links for mobile devices */
+    }
+    
+
+    .main {
+        font-size: 28px; /* Reduce font size for smaller screens */
+    }
+
+    .conatiner {
+        padding: 5px; /* Further reduce padding for smaller screens */
+        height: 500px;
+    }
+
+    .conatiner img {
+        max-height: 370px;
+        max-width: 270px; /* Further adjust image size for smaller screens */
+    }
+
+    #generatebutton {
+        font-size: 14px; /* Further reduce button font size for smaller screens */
+    }
+
+   
+}
+a:hover {
+    color: orange;
+}

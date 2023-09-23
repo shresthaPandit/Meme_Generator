@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{width: 100%;
+height: 100%;
+background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%)
+}
+
+#logotop{
+    padding-top: 5px;
+    width:6%;
+}
+.navflex{display: flex;
+justify-content: space-between;
+align-items: center;padding-top: 15px;
+color: aliceblue;}
+nav{font-weight: 700;}
+
+
+#nav_head_left{flex: 1;}
+.nav_head_right1{
+display: flex;
+padding-left: 800px;
+padding-right: 30px ;}
+
+
+ul{
+    text-decoration: none;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+li{list-style: none;
+}
+.main{font-family: 'Bungee Spice', cursive; width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .main {}
+.conatiner{max-width: 822px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: #cfcaca;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(251, 249, 249, 0.4);
+    animation: fadeInUp 1s ease;
+    height: 600px;
+    text-align: center;
+  
+  }
+          /* Animate container on page load */
+
+.conatiner img{max-height: 430px;padding-top: 30px;}
+#generatebutton{
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+    #title{padding-top: 10px;}
+
+footer{height: 41px;display: flex;justify-content: end;align-items: center;color: #cfcaca;}
+footer ul {display: flex;gap:10px; padding-right: 70px;}
+#namefoot{padding-right: 17px;}
+footer a{color: cornflowerblue;}
+a:hover{color: aliceblue;}
+nav a{text-decoration: none;
+color: aliceblue;}
+nav a:hover{color:orange ;}

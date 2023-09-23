@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>About Us</title>
+    <style>
+        /* Additional inline styles specific to this page */
+        body {
+            background-color: #21103f;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .container {
+         
+            max-width: 822px;
+  margin: 147px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(251, 249, 249, 0.3);
+  animation: fadeInUp 1s ease; /* Animate container on page load */
+  height: 554px;
+        }
+        h1 {
+            color: #090909;
+            text-align: center;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        p{ color: #000000;
+            font-size: 1.4rem;
+            line-height: 1.2;
+        text-align: center;
+    font-weight: 500;}
+    span {
+        display: block;
+            color: #000000;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            text-align: center;
+        font-weight:430;}
+        ul {display: flex;
+            justify-content: space-around;
+            color: #000000;
+            font-size: 1.3rem;
+            line-height: 1.5;
+            margin-left: 20px;
+            font-weight: bolder;
+        }
+        /* Animation on hover for the list items */
+        ul li:hover {
+            animation: bounce 0.5s infinite;
+        }
+
+        .header :hover{
+            color: #21103f;
+        }
+        /* Media Query for Tablets (e.g., iPad) */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 50px auto;
+        padding: 10px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p, span {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Media Query for Mobile Devices (e.g., iPhone) */
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 30px auto;
+        padding: 10px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p, span {
+        font-size: 1rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+    <div class="container">
+        <h1 class="animate__animated animate__bounce">About Me</h1>
+        <span class="introd">Hello! I'm SHRESTHA PANDIT, a passionate and aspiring Full-Stack Web Developer. I have a strong foundation in web technologies and I'm on a journey to become an expert in the field.
+I'm currently pursuing a B.Tech in Computer Science from Galgotias University, where I'm learning the latest in software development and computer science.</span> 
+
+        <p class="animate__animated animate__fadeInLeft">My skills include:</p>
+        <ul>
+            <li class="animate__animated animate__fadeInUp">HTML</li>
+            <li class="animate__animated animate__fadeInUp">CSS</li>
+            <li class="animate__animated animate__fadeInUp">JavaScript</li>
+            <li class="animate__animated animate__fadeInUp">Node.js</li>
+            <li class="animate__animated animate__fadeInUp">And more!</li>
+        </ul>
+
+        <p class="animate__animated animate__fadeInRight">I'm passionate about creating responsive and user-friendly websites, and I love solving complex problems with code. Whether it's designing a beautiful front-end or building a robust back-end, I enjoy every aspect of web development.</p>
+
+        <p class="animate__animated animate__fadeInLeft">I'm always eager to learn and explore new technologies, and I'm excited about the opportunities that lie ahead in the world of web development.</p>
+
+        <p class="animate__animated animate__fadeInRight">Feel free to connect with me if you'd like to collaborate on projects or just chat about web development and technology. Let's connect and make the web a better place together!</p>
+    </div>
+</body>
+</html>
