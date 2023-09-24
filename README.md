@@ -7,6 +7,9 @@ Welcome to the Meme Generator project! This web application is a fun and creativ
 - **Random Meme Generation**: With just a single click on the "GENERATE MEME" button, you can instantly generate a hilarious and random meme.
 
 - **Responsive Design**: The Meme Generator is designed to work seamlessly on various devices and screen sizes, ensuring a great user experience whether you're on a computer or a mobile device.
+THIS IS HOW IT WILL LOOKS IN YOUR MOBILE PHONES
+
+![1000095318](https://github.com/shresthaPandit/Meme_Generator/assets/145762326/bd9c5fa7-c516-495f-98e8-85e40110cdcb)
 
 ## Why Meme Generator?
 
